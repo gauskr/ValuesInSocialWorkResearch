@@ -1,6 +1,6 @@
 # Summary
 
-In summary, this book has no content whatsoever.
+In summary, this book has as of yet very little content.
 
 ```{r}
 1 + 1
