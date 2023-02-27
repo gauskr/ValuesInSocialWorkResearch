@@ -24,16 +24,15 @@ library(tidyverse)
 data <- bibliometrix::convert2df("social_work_value.bib", format = "bibtex")
 ```
 
-In my quick-and-dirty search I retrieved metadata on `r dim(data)[1]` documents. 
+In my quick-and-dirty search I retrieved metadata on `r dim(data)[1]` documents.
 
 These doucuments is produced from 1992 to 2023, as can be deduced from the following line plot.
 
 ![](SourceDynamics-2023-02-26.png)
 
-The line plot also indicate Social Work Research is a central source. In fact, algorithms indicate it might be the most central journal: 
+The line plot also indicate Social Work Research is a central source. In fact, algorithms indicate it might be the most central journal:
 
-![](MostRelevantSources-2023-02-26.png)
-Although this might be due to the journals name.
+![](MostRelevantSources-2023-02-26.png) Although this might be due to the journals name.
 
 The literature is to a large degree Anglo-Saxon:
 
@@ -43,8 +42,89 @@ It is kind of interesting to note that Nordic Social Work Researcher haven't wri
 
 ![](CountryCollaborationMap-2023-02-26.png)
 
-The reason why this map is identical with the previous is a lack of cooperation (to few to be marked).
+The reason why this map is identical with the previous is a lack of cooperation (to few to be marked). The following figure attempts to look out some conceptual continuities in different timeperiods:
 
 ![](ThematicEvolution_2023-02-26.png.png)
 
-vvvv
+In this descriptive model there's an interesting continuity from "practitioner research" to "children's services" in the middle. There's also an "ideological" continuity from "social workers" to "social justice" and to "participatory research".
+
+Conceptually speaking these are, perhaps, at different poles along an "individualistic focus" and "institutional focus" axis. But this figure need some tons of controlling, which I don't intend to do here (as of yet).
+
+The next figure looks at co-occurances of concepts:
+
+![](Co_occurrenceNetwork-2023-02-26.png.png)
+
+The most "ideological oriented" concepts seem to be associated with the word "students", while "children", "risk" and more is associated with "health". "services" is associated with "mothers".
+
+![](ThematicMap-2023-02-26.png)
+
+... Poverty seem to be somewhat apart from motor themes, and is categorized as a "basic theme". There is also some niche teams. Child Welfare is categorized, among other clusters, as a motor theme.
+
+I'm not really sure how to interpret this, apart from noting concepts are not necessarily dependent on each other in the pool of metadata. There could be a bunch of different things going on.
+
+It might be time to focus on some concrete documents, starting with the most globally cited documents:
+
+![](MostGlobalCitedDocuments-2023-02-26.png)
+
+The most cited documents seem to deal with mainstream (quantitatively oriented) methodological issues. The abstract from @rubio2003 deals with construct validity:
+
+```{r}
+#| echo: false
+print(cat(data[str_detect(data$AU, "RUBIO"), "AB"][[1]]))
+```
+
+While @saunders2006 deal with imputation of missing data:
+
+```{r}
+cat(data[str_detect(data$AU, "SAUNDERS"), "AB"][[1]])
+
+printabstract <- function(x) {
+  cat(data[str_detect(data$AU, x), "AB"][[1]])
+}
+```
+
+It might be the case that the locally cited documents is more indicative of what Social Work Researchers associate with "social work research" AND value\*. Here's a plot indicating popularity of specific documents:
+
+![](MostLocalCitedDocuments-2023-02-26%20(1).png)
+
+In so far as Web of Knowledge is a good indicator of the most central journals in Social Work Research (it isn't necessary that Web of Knowledge is exhaustive (it isn't), it just need to capture the "leading" journals), it seems like there is no "core", in terms of central scientific papers, to the discussion of value\* AND "social work research". This can be inferred, however tentatively, from the fact that only a handful of the papers is cited more than once, at the most cited document is cited (only) three times in the local pool of articles.
+
+Nonetheless it can, perhaps, be instructive to look at what's in these papers.
+
+@tyson1992 critizise the "positivist paradigm" defining "Social Work Research from 1949 to 1981", and argues for a heuristic approach to more useful marriages of practice and research. The bulk of the argument rests on deveolpment in general Social Science.
+
+```{r}
+#| echo: false
+printabstract("TYSON")
+```
+
+Five of the remaining articles is cited twice.
+
+[@swigonski1994]
+
+```{r}
+printabstract("SWIGONSK")
+```
+
+[@klein1995]
+
+```{r}
+printabstract("KLEIN")
+```
+
+[@gomory2001] 
+
+```{r}
+printabstract("GOMORY")
+```
+[@anderson-nathe2013]
+
+```{r}
+printabstract("ANDERSON-NAT")
+```
+[@newman2016]
+
+```{r}
+printabstract("NEWMAN")
+```
+
