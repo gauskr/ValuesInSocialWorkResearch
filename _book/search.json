@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "value_social_work_research_wok.html",
+    "href": "value_social_work_research_wok.html",
+    "title": "2  title: “Value* AND”Social Work Research”",
+    "section": "",
+    "text": "I guess if values in Social Work Research is something that sets Social Work Research apart from other kind of Social Science, then these values should be evident in Social Work Research.\nAlso, there should be some methodological oriented literature adressing Social Work Research Values.\nThe title of this chapter is a search string used in Web of Knowledge 26.02.2023 to kind or explore these hypotheses. The search hits were exported as a bibtex-file, and analyzed using tools in the R-package bibliometrix (Aria and Cuccurullo 2017).\nIn my quick-and-dirty search I retrieved metadata on 138 documents.\nThese doucuments is produced from 1992 to 2023, as can be deduced from the following line plot.\n\nThe line plot also indicate Social Work Research is a central source. In fact, algorithms indicate it might be the most central journal:\n Although this might be due to the journals name.\nThe literature is to a large degree Anglo-Saxon:\n\nIt is kind of interesting to note that Nordic Social Work Researcher haven’t written much on the subject. This could be due to Social Work Research values being of an universal sort, however maps over cross-country collaboration indicates each country is mostly preoccupied with itself:\n\nThe reason why this map is identical with the previous is a lack of cooperation (to few to be marked).\n\n\n\n\n\nAria, Massimo, and Corrado Cuccurullo. 2017. “Bibliometrix: An r-Tool for Comprehensive Science Mapping Analysis.” Journal of Informetrics 11 (4): 959975."
+  },
+  {
+    "objectID": "intro.html",
+    "href": "intro.html",
+    "title": "1  Introduction",
+    "section": "",
+    "text": "This Introduction will hopefully grow. At any rate I will start the examination of Social Work Research values with a quick-and-dirty-analysis of “Social Work Research” AND value*."
+  },
+  {
+    "objectID": "summary.html",
+    "href": "summary.html",
+    "title": "3  Summary",
+    "section": "",
+    "text": "In summary, this book has no content whatsoever.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "ValuesInSocialWorkResearch",
+    "section": "",
+    "text": "Preface\nThis is an informal attempt at analyzing something “in public”. Not that I expect anybody will be watching.\nThe background for the project is having worked some time at an institution teaching and researching Social Work (although I’m not sure this order reflects the activities priority).\nAlthough the topic of “Social Work Values” is sometimes raised, even in highly temperatured debates on what Social Work as a Research Field should be doing - and not be doing, on the one hand, and Social Work Values is defined for and known to practitioners (including me), I’m not really sure what we are talking about when we refer to values of Social Work Research (as opposed to Practice). That’s kind of embarrassing - after all I’m currently paid to be doing Social Work Research.\nAlso, I need to think through some of these issues before deciding how to move forward in some concrete analysis I’ve been postponing.\nAlthough I strongly believe researchers should keep out of the blogosphere, on the one hand, and feeling almost certain that I will show of some embarrassing holes in my knowledge and skills on core topics, I’ve decided to do some explorations out in the open.\nPartly, this can be justified through “values”, referring to what’s socially “good”, should imply values is discussed publicly. At least as far as possible. “Research values” implies community. And even though the community probably ain’t listening this book is open for comments, corrections, contributions etc.\nAlso I just love how the RStudio - Quarto - Git - GitHub - GitHub Pages workflow makes literate programming extremely fun…"
+  }
+]

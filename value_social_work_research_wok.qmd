@@ -1,0 +1,48 @@
+---
+bibliography: references.bib
+---
+
+# title: "Value\* AND"Social Work Research" {#isi-web-value-swr-search}
+
+I guess if values in Social Work Research is something that sets Social Work Research apart from other kind of Social Science, then these values should be evident in Social Work Research.
+
+Also, there should be some methodological oriented literature adressing Social Work Research Values.
+
+The title of this chapter is a search string used in Web of Knowledge 26.02.2023 to kind or explore these hypotheses. The search hits were exported as a bibtex-file, and analyzed using tools in the R-package bibliometrix [@aria2017].
+
+```{r echo=FALSE, include=FALSE, message=FALSE, warning=FALSE}
+.libPaths("C:/Program Files/R/R-4.2.2/library")
+library(bibliometrix)
+library(tidyverse)
+```
+
+```{r}
+#| include: false
+#| warning: false
+#| echo: false
+
+data <- bibliometrix::convert2df("social_work_value.bib", format = "bibtex")
+```
+
+In my quick-and-dirty search I retrieved metadata on `r dim(data)[1]` documents. 
+
+These doucuments is produced from 1992 to 2023, as can be deduced from the following line plot.
+
+![](SourceDynamics-2023-02-26.png)
+
+The line plot also indicate Social Work Research is a central source. In fact, algorithms indicate it might be the most central journal: 
+
+![](MostRelevantSources-2023-02-26.png)
+Although this might be due to the journals name.
+
+The literature is to a large degree Anglo-Saxon:
+
+![](CountryCollaborationMap-2023-02-26.png)
+
+It is kind of interesting to note that Nordic Social Work Researcher haven't written much on the subject. This could be due to Social Work Research values being of an universal sort, however maps over cross-country collaboration indicates each country is mostly preoccupied with itself:
+
+![](CountryCollaborationMap-2023-02-26.png)
+
+The reason why this map is identical with the previous is a lack of cooperation (to few to be marked).
+
+![](ThematicEvolution_2023-02-26.png.png)

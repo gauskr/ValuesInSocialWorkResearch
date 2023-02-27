@@ -1,0 +1,24 @@
+project:
+  type: book
+
+book:
+  title: "ValuesInSocialWorkResearch"
+  author: "Jane Doe"
+  date: "2/26/2023"
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - value_social_work_research_wok.qmd
+    - summary.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+
+editor: visual
+

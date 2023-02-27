@@ -1,0 +1,15 @@
+# Preface {.unnumbered}
+
+This is an informal attempt at analyzing something "in public". Not that I expect anybody will be watching.
+
+The background for the project is having worked some time at an institution teaching and researching Social Work (although I'm not sure this order reflects the activities priority).
+
+Although the topic of "Social Work Values" is sometimes raised, even in highly temperatured debates on what Social Work as a Research Field should be doing - and not be doing, on the one hand, and Social Work Values is defined for and known to practitioners (including me), I'm not really sure what we are talking about when we refer to values of Social Work Research (as opposed to Practice). That's kind of embarrassing - after all I'm currently paid to be doing Social Work Research.
+
+Also, I need to think through some of these issues before deciding how to move forward in some concrete analysis I've been postponing.
+
+Although I strongly believe researchers should keep out of the blogosphere, on the one hand, and feeling almost certain that I will show of some embarrassing holes in my knowledge and skills on core topics, I've decided to do some explorations out in the open.
+
+Partly, this can be justified through "values", referring to what's socially "good", should imply values is discussed publicly. At least as far as possible. "Research values" implies community. And even though the community probably ain't listening this book is open for comments, corrections, contributions etc.
+
+Also I just love how the RStudio - Quarto - Git - GitHub - GitHub Pages workflow makes literate programming extremely fun...
