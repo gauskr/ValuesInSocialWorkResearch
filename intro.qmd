@@ -1,4 +1,64 @@
 # Introduction
 
-This Introduction will hopefully grow.
+a
+This Introduction will hopefully grow...
+
+## A Chat-bot QA-session
+
+I'm not sure if ChatGPT is a valid startingpoint for a working-reflection-blog-book like this, but here's a Q nd A- "dialogue" I recently (march, 23) had with the program.
+
+Hi!
+
+Hello! How can I assist you today?
+
+
+
+
+Me:
+I wonder if you can tell me something about the topic of values (normative) in social work research?
+Certainly! Values are an essential component of social work research, as they inform the ethical principles and standards that guide social work practice. Normative values in social work research refer to the principles and ideals that guide ethical decision-making and the behavior of social work practitioners.
+
+ChatGPT:
+There are several normative values that are particularly important in social work research, including:
+
+Respect for human dignity: Social work researchers must show respect for the inherent worth and dignity of all human beings, and must take steps to protect the privacy, autonomy, and confidentiality of research participants.
+
+Social justice: Social work researchers must work to promote social justice, equality, and fairness for all individuals and groups, particularly those who are marginalized or disadvantaged.
+
+Integrity: Social work researchers must maintain high standards of professional conduct, including honesty, objectivity, and transparency.
+
+Competence: Social work researchers must possess the knowledge, skills, and abilities necessary to conduct research in an ethical and effective manner.
+
+Empathy: Social work researchers must be able to understand and appreciate the experiences, perspectives, and needs of research participants, and must strive to build trusting and respectful relationships with them.
+
+By adhering to these normative values, social work researchers can ensure that their work is conducted in a manner that is ethical, just, and respectful of the dignity and rights of all individuals involved.
+
+
+Me:
+I see. In what way are these values different or similar to values in social science (generally)?
+
+ChatGPT:
+The normative values in social work research are similar to the values that guide research in social science more broadly. Both social work and social science researchers are guided by ethical principles that promote objectivity, integrity, and respect for the dignity and rights of research participants.
+
+However, social work research is unique in its focus on promoting social justice and the well-being of vulnerable populations. Social work researchers are often motivated by a desire to improve the lives of those who are marginalized or oppressed, and they must navigate complex ethical considerations when working with vulnerable populations.
+
+Social science research, on the other hand, may have a broader focus and may be less explicitly focused on promoting social justice or advocating for specific populations. However, social scientists are still bound by ethical principles that promote the well-being of research participants and the integrity of the research process.
+
+In both social work and social science research, normative values are essential for ensuring that research is conducted in an ethical and responsible manner. By adhering to these values, researchers can help to ensure that their work is conducted in a manner that is respectful of the rights and dignity of all individuals involved.
+
+
+Me:
+But isn't it the case that Social Work Researchers also sometimes have a broader focus, and not necessarily focus explicitly on social justice and promotion of particular groups interests? And conversely, that more general social science researchers sometimes do action research, and relates to social justice?
+
+ChatGPT:
+Yes, you are correct. Social work research can sometimes have a broader focus beyond social justice and the promotion of specific groups' interests. Social work research can cover a wide range of topics, including mental health, substance abuse, child welfare, aging, and healthcare, among others. While social justice is an important value in social work, it is not necessarily the sole focus of all social work research.
+
+Conversely, social science researchers can engage in action research and relate to social justice. Action research is a research approach that emphasizes collaboration between researchers and participants, with the goal of producing practical solutions to real-world problems. This approach is often used in social science research to promote social change and to address issues of inequality, oppression, and injustice.
+
+Therefore, while there are some differences in the focus of social work research and social science research, the normative values that guide both types of research are similar. These values are essential for ensuring that research is conducted in an ethical and responsible manner, regardless of the research topic or focus.
+
+## Wrap up and Coming Next
+
+This kind of frames my "driving" question. What's values in Social Research all about? How authoritative should they be, and in what sense, compared to general social science ethics.
+
 At any rate I will start the examination of Social Work Research values with a quick-and-dirty-analysis of "Social Work Research" AND value*.
